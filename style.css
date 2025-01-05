@@ -38,4 +38,10 @@ footer {
     background-color: #333;
     color: white;
 }
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
 
