@@ -3,60 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manisharma Sugurthi's Portfolio</title>
+    <title>Manisharma Sugurthi | VLSI Engineer & Embedded Systems Enthusiast</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Manisharma Sugurthi's Portfolio</h1>
-        <img src="images/yourphoto.jpg" alt="Manisharma Sugurthi" class="profile-photo">
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">MS</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="images/yourphoto.jpg" alt="Manisharma Sugurthi" class="profile-photo">
+            <h1>Manisharma Sugurthi</h1>
+            <p class="tagline">VLSI Engineer | Embedded Systems Enthusiast | GSoC 2025 Aspirant</p>
+            <div class="social-links">
+                <a href="https://github.com/sharma-sugurthi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manisharma-sugurthi-222739213" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:sugurthimanisharma@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Manisharma Sugurthi is a 3rd-year Electronics and Communication Engineering (ECE) student with a strong interest in VLSI (Very-Large-Scale Integration) and Data Science. He is currently working on projects such as a voting machine, arrhythmia detection from ECG, and designing a Universal Noise Adaptive System (UNAS). Manisharma is preparing for the CDS 2026 exam and plans to join the Indian Military Academy (IMA). He is also aiming to work in a tech company for a year to clear university fees and earn his graduation certificates for SSB. Manisharma uses tools like Xilinx ISE, Ubuntu, and MATLAB for his projects, with a focus on creating complete VLSI systems using open-source tools.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a 3rd-year Electronics and Communication Engineering student with a passion for VLSI and Embedded Systems. Currently exploring the fascinating world of RISC-V, TL-Verilog, and AI-assisted chip design tools.</p>
+                <div class="interests">
+                    <h3>Current Focus</h3>
+                    <ul>
+                        <li>GSoC 2025 Application under FOSSi Foundation</li>
+                        <li>AI-assisted Verilog-to-TL-Verilog conversion</li>
+                        <li>RISC-V Core Development</li>
+                        <li>Open-source EDA Tools</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/1737323032397.jpeg" alt="Working on Projects" class="about-img">
+            </div>
+        </div>
     </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>VLSI, Verilog, Magic, CMOS design, SoC design</li>
-            <li>Ngspice, Xschem, KiCad, Multisim</li>
-            <li>Python, HTML, CSS, C Programming, C++, Arduino, MATLAB</li>
-        </ul>
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>VLSI & Digital Design</h3>
+                <ul>
+                    <li>Verilog</li>
+                    <li>TL-Verilog</li>
+                    <li>CMOS Design</li>
+                    <li>SoC Design</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>EDA Tools</h3>
+                <ul>
+                    <li>Magic VLSI</li>
+                    <li>Ngspice</li>
+                    <li>Xschem</li>
+                    <li>Xilinx ISE</li>
+                    <li>KiCad</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C/C++</li>
+                    <li>HTML/CSS</li>
+                    <li>MATLAB</li>
+                </ul>
+            </div>
+        </div>
     </section>
-<section class="projects">
-    <h2>Projects</h2>
-    <p>Check out my projects on <a href="https://github.com/sharma-sugurthi" target="_blank">GitHub</a>.</p>
 
-    <div class="project">
-        <h3>Sawtooth and Triangular Wave Generators</h3>
-        <p>Designed and simulated waveform generators using eSim, analyzing the role of op-amps in signal processing. Click below for details.</p>
-        <a href="https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim" target="_blank" class="btn btn-primary">View Project</a>
-    </div>
-    
-    <div class="project">
-        <h3>Automatic Voting System Using Advanced Image processing</h3>
-        <p>Automatic Voting system using adbancd image processing is project based on Computer Vision to reduce voting Frauds in real time.</p>
-        <a href="https://github.com/sharma-sugurthi/Automated-Voting-system-using-advanced-Image-processing" target="_blank" class="btn btn-primary">View Project</a>
-    </div>
-</section>
-
-    <section class="education">
-        <h2>Education</h2>
-        <p>I am currently a 3rd-year student at RGUKT, Ongole. My wanted to study M.Tech in IIT Madras or M.B.A in IIM Ahmedabad.</p>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/voting machine.jpeg" alt="Voting Machine Project" class="project-image">
+                <h3>Voting Machine using MATLAB</h3>
+                <p>Developed an automated voting system with advanced image processing to reduce voting frauds in real-time.</p>
+                <a href="https://github.com/sharma-sugurthi/Automated-Voting-system-using-advanced-Image-processing" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/uart =_protocol.png" alt="UART Protocol Project" class="project-image">
+                <h3>UART Protocol Implementation</h3>
+                <p>Implemented UART protocol in Verilog with parity checking and simulation.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/esim.png" alt="Wave Generator Project" class="project-image">
+                <h3>Wave Generators using eSim</h3>
+                <p>Designed and simulated sawtooth and triangular wave generators using eSim.</p>
+                <a href="https://github.com/sharma-sugurthi/SawtoothWaveGen_using_esim" class="project-link">View Project</a>
+            </div>
+        </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:sugurthimanisharma@gmail.com">sugurthimanisharma@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/sharma-sugurthi" target="_blank">sharma-sugurthi</a></p>
-        <p>Phone: +919392521762</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/manisharma-sugurthi-222739213" target="_blank">manisharma-sugurthi</a></p>
+    <section id="gallery" class="section">
+        <h2>Project Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/voting machine.jpeg" alt="Voting Machine Project">
+                <div class="gallery-overlay">
+                    <h3>Voting Machine</h3>
+                    <p>MATLAB Implementation</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/uart =_protocol.png" alt="UART Protocol Project">
+                <div class="gallery-overlay">
+                    <h3>UART Protocol</h3>
+                    <p>Verilog Implementation</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/esim.png" alt="Wave Generator Project">
+                <div class="gallery-overlay">
+                    <h3>Wave Generator</h3>
+                    <p>eSim Implementation</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/GSoC-Vertical.png" alt="GSoC Project">
+                <div class="gallery-overlay">
+                    <h3>GSoC 2025</h3>
+                    <p>FOSSi Foundation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education & Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>B.Tech in ECE</h3>
+                    <p>RGUKT, Ongole</p>
+                    <p>2021 - Present</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Future Goals</h3>
+                    <p>M.Tech from IIT Madras or MBA from IIM Ahmedabad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Get in Touch</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> <a href="mailto:sugurthimanisharma@gmail.com">sugurthimanisharma@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> +91 9392521762</p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/sharma-sugurthi">github.com/sharma-sugurthi</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/manisharma-sugurthi-222739213">linkedin.com/in/manisharma-sugurthi</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Manisharma Sugurthi</p>
+        <p>&copy; 2024 Manisharma Sugurthi. All rights reserved.</p>
     </footer>
 </body>
 </html>
